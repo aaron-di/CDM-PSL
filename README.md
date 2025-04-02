@@ -4,8 +4,8 @@ This repository includes the code for the paper “_**Expensive Multi-Objective 
 
 ## 💥 News 💥
 
-- 🎉🎉🎉 **[Dec 10, 2024]** Our paper is accepted at AAAI 2025! The camera ready version is coming soon.
-    
+- 🎉🎉🎉 **[Dec 10, 2024]** Our paper is accepted at AAAI 2025!
+  
 ## Abstract
 
 **CDM-PSL (Composite Diffusion Model-Based Pareto Set Learning)** is a novel algorithm designed to address the challenges of expensive multi-objective Bayesian optimization (EMOBO). While MOBO has shown great potential in solving expensive multi-objective optimization problems (EMOPs), it struggles to model complex distributions of the Pareto optimal solutions when only a limited number of function evaluations are available.
@@ -16,9 +16,36 @@ Existing Pareto set learning methods often exhibit instability in expensive scen
 
 <img src="./assets/CDM_PSL.png">
 
-## 🚧 Code Coming Soon! 🚧
+## 🚀 Getting Started
 
-The source code for CDM-PSL will be released after the AAAI 2025 conference presentation.
+### Install dependencies
+
+```
+cd CDM-PSL/cdm_psl
+pip install -r requirements.txt
+```
+
+### Run CDM-PSL on DTLZ2
+
+```
+bash example_dtlz2.sh
+```
+
+### File Structure
+```
+cdm_psl/
+├── 📂 evolution/         
+├── 📂 learning/          
+├── 📂 mobo/               
+├── 📜 data_enhancement.py # Data augmentation utilities
+├── 📜 diffusion.py        # [Core] Diffusion model implementation
+├── 🗒️ example_dtlz2.sh    # Example execution scripts
+├── 📜 lhs.py              # Latin Hypercube Sampling utilities
+├── 📜 problem.py          # Problem definition
+├── 📜 run_d20.py          # [Main] Main algorithm workflow
+└── 📜 utils.py            # Common utility functions
+```
+
 
 ## Citation
 
