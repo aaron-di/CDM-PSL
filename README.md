@@ -1,6 +1,6 @@
 <h1 align="center"> CDM-PSL: Expensive Multi-Objective Bayesian Optimization Based on Diffusion Models </h1>
 
-This repository includes the code for the paper “_**Expensive Multi-Objective Bayesian Optimization Based on Diffusion Models**_”, which has been accepted at **AAAI 2025**. The preprint is at: https://arxiv.org/abs/2405.08674
+This repository includes the code for the paper “_**Expensive Multi-Objective Bayesian Optimization Based on Diffusion Models**_”, which has been accepted at **AAAI 2025**. The paper is available at: https://ojs.aaai.org/index.php/AAAI/article/view/34913
 
 ## 💥 News 💥
 
@@ -52,10 +52,13 @@ cdm_psl/
 If you find our work helpful, please cite the following BibTeX entry:
 
 ```
-@article{li2024expensive,
-  title={Expensive Multi-Objective Bayesian Optimization Based on Diffusion Models},
+@inproceedings{li2025expensive,
+  title={Expensive multi-objective bayesian optimization based on diffusion models},
   author={Li, Bingdong and Di, Zixiang and Lu, Yongfan and Qian, Hong and Wang, Feng and Yang, Peng and Tang, Ke and Zhou, Aimin},
-  journal={accepted by AAAI},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={25},
+  pages={27063--27071},
   year={2025}
 }
 ```
